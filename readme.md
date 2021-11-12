@@ -57,8 +57,8 @@ we searched while current is **what** the temperature is currently.
 List of Features I'd like to do:
 
 1. Change Tempeartures °C or °F ✓
-2. Searching a city ✓
-    2.1 If a City already exists don't search
-    2.2 Searching via "Region" with the comma specifier. I.e, "City of London,  Greater London" ✓
+2. Searching a city ✓ <br />
+    2.1 If a City already exists don't search <br />
+    2.2 Searching via "Region" with the comma specifier. I.e, "City of London,  Greater London" ✓ <br />
 3. List of Cities
 4. Better UI with css
