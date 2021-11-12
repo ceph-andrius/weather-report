@@ -1,0 +1,12 @@
+.headline{
+
+    &__title{
+        font-weight: 300;
+        font-size: 2.5rem;
+        margin-bottom: 0.625rem;
+    }
+
+    &__submit{
+        margin-bottom: 0.625rem;
+    }
+}

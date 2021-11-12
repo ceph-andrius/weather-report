@@ -1,0 +1,12 @@
+.card{
+    margin:auto;
+    width: 210px;
+    border-width: 1px;
+    border-radius: 5px;
+
+
+    &--wrapper{
+        border: 0.125rem solid white;
+        border-radius: 12px;
+    }
+}
