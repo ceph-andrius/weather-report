@@ -1,3 +1,5 @@
 .weather-convert{
-   margin-top: 0.625rem;
+   top: 50%;
+   left: 40%;
+   position: absolute;
 }

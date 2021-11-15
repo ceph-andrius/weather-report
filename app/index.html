@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
@@ -13,14 +13,18 @@
         <div class="headline__div">
             <h1 class="headline__title">Weather Report</h1>
             <form class="headline__submit" onsubmit="searchCity(event)">
-                <input type="text" id="search-city" name="search-city" placeholder="Search for a city" required>
-                <button for="search-city">Search</button>
+                <div class="btn">
+                    <div class="btn--search-bar">
+                        <input type="text" class="btn__input"id="search-city" name="search-city" placeholder="Search for a city" value="" required autofocus>
+                        <!--<button for="search-city">Search</button>-->
+                    </div>
+                </div>
             </form>
         </div>
     </section>
     
-    <div id="results" class="card">
-        <div class="card--wrapper">
+    <div class="card">
+        <div class="card--wrapper" id="results">
             <span id="country"></span> <br>
             <span id="city"></span> <br>
             <!--<span id="region"></span> <br>-->
@@ -37,6 +41,8 @@
         var inputVal;// = document.getElementById("search-city");
         const api_key = "a882caa0da1d40b08b410301210611";
 
+
+        
         function searchCity() {
             event.preventDefault();
             console.log(event.target['search-city'].value); //getting the value for an input. It goes through event and the target's value. Which is the id of input "search-city"
@@ -86,7 +92,10 @@
                 addIcon.appendChild(div);
                 div.innerHTML = markup;
             }
+
             getWeather();
+
+            document.getElementById('results').style.display = "block";
         }
     </script>
 

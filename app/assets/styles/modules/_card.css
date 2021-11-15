@@ -4,9 +4,17 @@
     border-width: 1px;
     border-radius: 5px;
 
+    position: absolute;
+    top: 15%;
+    left: 45%;
 
     &--wrapper{
+        display: none;
+        position: relative;
         border: 0.125rem solid white;
+        padding: 40px 10%;
         border-radius: 12px;
+        background: #fff;
+        color: black;
     }
 }
