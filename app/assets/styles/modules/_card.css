@@ -1,4 +1,5 @@
 .card{
+    font-weight: 400;
     margin:auto;
     width: 210px;
     border-width: 1px;
@@ -6,22 +7,55 @@
 
     position: absolute;
     top: 15%;
-    left: 45%;
+    left: 44%;
 
     &--wrapper{
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         display: none;
         position: relative;
         border: 0.125rem solid white;
-        padding: 40px 10%;
+        padding: 1em;
         border-radius: 12px;
         background: #fff;
         color: black;
 
-        box-shadow: 1px 2px 2px hsl(210deg 60% 25% / 0.35),
-                    2px 4px 4px hsl(210deg 60% 25% / 0.35),
-                    4px 8px 8px hsl(210deg 60% 25% / 0.35),
-                    8px 16px 16px hsl(210deg 60% 25% / 0.35);
+        box-shadow: 1px 2px 2px hsl(201deg 50% 40% / 0.35),
+                    2px 4px 4px hsl(201deg 50% 40% / 0.35),
+                    4px 8px 8px hsl(201deg 50% 40% / 0.35),
+                    8px 16px 16px hsl(201deg 50% 40% / 0.35);
+    }
+
+    &--country{
+        position: absolute;
+        top: 1em;
+        font-size: 1.5rem;
+    }
+
+    &--city{
+        position: absolute;
+        color: #53627c;
+        left: 1em;
+    }
+
+    &--temp{
+        position: absolute;
+        top: 93px;
+        left: 80px;
+        font-size: 2.2rem;
+    }
+
+    &--weather-icon{
+        position: absolute;
+        left: 1em;
+        top: 80px;
+    }
+
+    &--condition{
+        font-weight: 300;
+        position: absolute;
+        color: #53627c;
+        font-size: 1.5rem;
+        bottom: 1em;
     }
 }

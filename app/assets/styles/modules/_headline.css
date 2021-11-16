@@ -5,6 +5,7 @@
         font-weight: 400;
         font-size: 2.5rem;
         margin-bottom: 0.625rem;
+        text-align: center;
     }
 
     &__submit{

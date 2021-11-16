@@ -1,5 +1,25 @@
 .weather-convert{
-   top: 50%;
-   left: 40%;
    position: absolute;
+   z-index: 1;
+   top: 10px;
+   right: 10px;
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: #8ABAD3;
+   color: #fff;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 500;
+
+   &--padding{
+      padding-top: 10px;
+   }
+
+   
+   box-shadow: 1px 2px 2px hsl(201deg 50% 40% / 0.35),
+               2px 4px 4px hsl(201deg 50% 40% / 0.35),
+               4px 8px 8px hsl(201deg 50% 40% / 0.35),
+               8px 16px 16px hsl(201deg 50% 40% / 0.35);
+
 }
