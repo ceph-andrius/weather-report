@@ -1,6 +1,6 @@
 body{
     font-family: 'roboto', sans-serif;
-    background-color:  #2C5B8B;/*#191970;*/
+    background-color:hsl(210deg, 52%, 36%);/*#2C5B8B;#191970;*/
     color: #FFFFFF;
     text-align: center;
 }

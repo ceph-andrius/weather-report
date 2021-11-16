@@ -9,6 +9,8 @@
     left: 45%;
 
     &--wrapper{
+        width: 150px;
+        height: 150px;
         display: none;
         position: relative;
         border: 0.125rem solid white;
@@ -16,5 +18,10 @@
         border-radius: 12px;
         background: #fff;
         color: black;
+
+        box-shadow: 1px 2px 2px hsl(210deg 60% 25% / 0.35),
+                    2px 4px 4px hsl(210deg 60% 25% / 0.35),
+                    4px 8px 8px hsl(210deg 60% 25% / 0.35),
+                    8px 16px 16px hsl(210deg 60% 25% / 0.35);
     }
 }
